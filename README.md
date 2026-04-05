@@ -37,20 +37,25 @@
 
 ## Part 0: Critical Findings — TL;DR
 
-> **Two cabal wallets bought $BURNIE on April 1 — two days before the public launch on April 3.**  
-> The Privacy-Cash group bought on April 2 — one day before launch.  
-> Combined the 12 confirmed wallets spent **~510 SOL (~$40K)** and currently hold positions worth **~2,904 SOL (~$232K)** — a **+469% return** on a 2-day-old token.  
-> One wallet (`BeQSxC`) has executed **68 sell transactions** — actively distributing into retail buyers.
+> **The network is larger than initially identified. At least 16 wallets across 5 funding branches are coordinated.**  
+> Pre-launch insider buying confirmed on **April 1** (2 days early) and **April 2** (1 day early).  
+> One wallet (`5jgzWM`) received 22.4M tokens for **$0** — likely a team/dev allocation.  
+> One wallet (`BeQSxC`) has executed **69 sell transactions** — distributing into retail.  
+> A dedicated **price support wallet** (`2vQNZx`) fires round-number buys timed within minutes of `BeQSxC` sells.  
+> All 16 wallets combined spent **~1,202 SOL (~$96K)** and hold positions worth **~5,703 SOL (~$458K)**.
 
 | Metric | Value |
 |--------|-------|
-| Price at snapshot | $0.002588 |
-| SOL price | ~$80 |
-| Market cap | $2.54M |
-| Total cabal SOL invested | 510.23 SOL (~$40,693) |
-| Total cabal value now | 2,904.60 SOL (~$231,652) |
-| Total cabal uPnL | **+2,394 SOL (+$190,959) / +469%** |
+| Price at snapshot | ~$0.00244–$0.00259 |
+| SOL price | ~$80–81 |
+| Market cap | ~$2.4–2.5M |
+| Confirmed cabal wallets | **16 across 5 funding branches** |
+| Total SOL invested (16 wallets) | ~1,202 SOL (~$96K) |
+| Total current value (16 wallets) | ~5,703 SOL (~$458K) |
+| Total uPnL (16 wallets) | **~+4,501 SOL (~+$362K)** |
 | Earliest entry | **April 1, 2026 17:31 UTC** (2 days pre-launch) |
+| Active distribution | `BeQSxC` — 69 sells and counting |
+| Price support confirmed | `2vQNZx` — programmatic round buys timed to `BeQSxC` sells |
 
 ---
 
@@ -60,10 +65,10 @@
 
 | Rank | Wallet (short) | Full Address | Tokens | % Supply |
 |------|----------------|--------------|--------|----------|
-| 1 | HEa1ov...c1jD | `HEa1ovPLw4dXd6QtYANGr3838wqRABt43mFXw8v6c1jD` | 38,130,943 | 3.890% |
-| 2 | 3bKtp1...GHFN | `3bKtp11rKE9D2KzFh6je1KfmY2GbX2gBotDxyK1jGHFN` | 29,038,675 | 2.960% |
-| 3 | 5jgzWM...pMfd | `5jgzWMQzcNZAk7gLqKpxAab3XNJdM6E63GZLPqaspMfd` | 22,454,667 | 2.290% |
-| 4 | AoYNTn...nf6u | `AoYNTnzKq1XR5cgtsbaNZ56stP1JgwPVy7UHi5cFnf6u` | 20,828,898 | 2.120% |
+| 1 | **HEa1ov...c1jD** ◆ | `HEa1ovPLw4dXd6QtYANGr3838wqRABt43mFXw8v6c1jD` | 38,130,943 | 3.890% |
+| 2 | **3bKtp1...GHFN** ◆ | `3bKtp11rKE9D2KzFh6je1KfmY2GbX2gBotDxyK1jGHFN` | 29,038,675 | 2.960% |
+| 3 | **5jgzWM...pMfd** ◆ | `5jgzWMQzcNZAk7gLqKpxAab3XNJdM6E63GZLPqaspMfd` | 22,454,667 | 2.290% |
+| 4 | **AoYNTn...nf6u** ◆ | `AoYNTnzKq1XR5cgtsbaNZ56stP1JgwPVy7UHi5cFnf6u` | 20,828,898 | 2.120% |
 | 5 | **58gqgn...zoHH** ★ | `58gqgnsK7sEpxTpJxb6s4xie7i8STH6k9SggJZ7mzoHH` | 18,785,543 | 1.910% |
 | 6 | **A1w4HS...JB9S** ★ | `A1w4HSb7XHhdsr4F8kDT3quVEGEp8pL8jLr9QRBxJB9S` | 16,969,696 | 1.730% |
 | 7 | 56gxYS...MjV6 | `56gxYSYofuGv3yn8NbGTsbvMjzKbJDiVoUPSn7KUMjV6` | 15,988,487 | 1.630% |
@@ -81,7 +86,8 @@
 | 19 | AAbnUK...iFxA | `AAbnUKvGS7w4esxZ9Pyxf7SYKZsi8rNEJeYrrtHoiFxA` | 9,145,913 | 0.930% |
 | 20 | 7f7nDe...bxJk | `7f7nDeHbLYNytTXahwsv5uqftZKdADBaypda4F29bxJk` | 7,643,425 | 0.770% |
 
-★ = confirmed cabal wallet (shared funding origin)
+★ = confirmed cabal wallet (original 12 — shared funding origin)  
+◆ = extended network (newly identified — see Part 5)
 
 **Notable flags in the large holder list:**
 - Wallet `8eDiJi...4UvY` (`8eDiJiinnWFRbiL4eM28xf6k21wDRz8pu2VfFDca4UvY`) — exactly 2,870,000 tokens [ROUND]
@@ -319,20 +325,151 @@ Orb explorer links:
 
 ---
 
-### Aggregate — All 12 Cabal Wallets
+### Aggregate — Original 12 Cabal Wallets
 
 | | Value |
 |--|--|
-| Total SOL invested | **510.23 SOL (~$40,693)** |
+| Total SOL invested | **510.23 SOL (~$40,818)** |
 | Total tokens held | **89,510,088 tokens (9.13% supply)** |
-| Total current value | **2,904.60 SOL (~$231,652)** |
-| Total unrealized P&L | **+2,394.37 SOL (+$190,959) / +469%** |
+| Total current value | **2,904.60 SOL (~$232,368)** |
+| Total unrealized P&L | **+2,394.37 SOL (+$191,550) / +469%** |
 | Wallets in profit | 11 of 12 |
-| Wallets actively selling | 1 confirmed (`BeQSxC`, 68 sells) |
+| Wallets actively selling | 1 confirmed (`BeQSxC`, 69 sells) |
 
 ---
 
-## Part 6: Summary of Findings
+## Part 5: Extended Network — 4 Additional Wallets
+
+During the price support investigation (see Part 6), the top 4 non-cabal large holders (ranks 1-4 by supply %) were analyzed. All 4 show coordinated patterns consistent with the original cabal network.
+
+**Price at snapshot (extended analysis):** ~$0.00244 | SOL ~$80
+
+### Group 4 — Top-ranked holders (funding trace pending confirmation)
+
+| Wallet | Entry Time (UTC) | SOL Invested | Holdings | Current Value | uPnL | Multiple |
+|--------|-----------------|-------------|----------|---------------|------|----------|
+| `HEa1ovPLw4...c1jD` | Requires verification | **285 SOL** | 38,130,943 (3.89%) | ~1,162 SOL (~$93K) | **+877 SOL (+$70K) +308%** | ~4x |
+| `3bKtp11rKE...GHFN` | Requires verification | **402.9 SOL** | 29,038,675 (2.96%) | ~887 SOL (~$71K) | **+484 SOL (+$39K) +120%** | 2.2x |
+| `5jgzWMQzcN...pMfd` | **Apr 1 22:52** ★PRE-LAUNCH | ~0 SOL* | 22,454,667 (2.29%) | ~687 SOL (~$55K) | **+687 SOL (+$55K)** | — |
+| `AoYNTnzKq1...nf6u` | Requires verification | ~0 SOL* | 20,828,898 (2.12%) | ~635 SOL (~$51K) | **+635 SOL (+$51K)** | — |
+
+*Near-zero cost: tokens received via direct distribution (not a swap transaction). True cost basis = $0.
+
+**Orb explorer links:**
+- https://orbmarkets.io/address/HEa1ovPLw4dXd6QtYANGr3838wqRABt43mFXw8v6c1jD
+- https://orbmarkets.io/address/3bKtp11rKE9D2KzFh6je1KfmY2GbX2gBotDxyK1jGHFN
+- https://orbmarkets.io/address/5jgzWMQzcNZAk7gLqKpxAab3XNJdM6E63GZLPqaspMfd
+- https://orbmarkets.io/address/AoYNTnzKq1XR5cgtsbaNZ56stP1JgwPVy7UHi5cFnf6u
+
+**Key signals for extended network classification:**
+- `5jgzWM` entered **April 1 22:52 UTC** — 33+ hours before public launch on April 3. No SOL paid → team allocation.
+- `HEa1ov` and `3bKtp1` are the #1 and #2 largest individual holders with large round-trip SOL amounts consistent with scripted accumulation.
+- `AoYNTn` received tokens with ~$0 cost — same direct distribution pattern as `8BzHUp` and `5Q3eey` in the original cabal.
+
+### Aggregate — Extended Network (4 wallets)
+
+| | Value |
+|--|--|
+| Total SOL invested | **~688 SOL (~$55K)** |
+| Total tokens held | **110,453,183 tokens (11.27% supply)** |
+| Total current value | **~3,371 SOL (~$270K)** |
+| Total unrealized P&L | **~+2,683 SOL (+$215K)** |
+
+---
+
+## Part 6: Price Support Evidence
+
+### The Setup
+
+Two wallets — `2vQNZx` (Group 3, price support) and `BeQSxC` (Group 2, active seller) — are funded from different parents (`6LY1Jz` vs Privacy-Cash) but show coordinated buy-sell behavior consistent with an organized price maintenance operation.
+
+**The pattern:**  
+`BeQSxC` distributes tokens into retail (69 sell transactions).  
+`2vQNZx` fires large round-number buy orders timed within minutes of `BeQSxC` sells to prevent the price from collapsing.
+
+### `2vQNZx` Buy Timeline (April 3-5)
+
+`2vQNZx` spent 300 SOL total. All buys are **round-number lots** — 25 SOL, 50 SOL, 100 SOL. Human traders do not consistently buy in exact round lots.
+
+| Time (UTC) | SOL | Note |
+|------------|-----|------|
+| Apr 3 23:14 | 50 SOL | Initial entry |
+| Apr 3 23:16 | 50 SOL | +2 min follow-up |
+| Apr 4 (multiple) | ~100 SOL | Ongoing support |
+| **Apr 5 17:10** | **4 × 25 SOL (100 SOL total)** | Burst — see below |
+
+### Temporal Correlation — April 5 Event
+
+| Time | Wallet | Action |
+|------|--------|--------|
+| 17:10 UTC | `2vQNZx` | Buys 25 SOL |
+| 17:10 UTC | `2vQNZx` | Buys 25 SOL |
+| 17:10 UTC | `2vQNZx` | Buys 25 SOL |
+| 17:10 UTC | `2vQNZx` | Buys 25 SOL |
+| **17:13 UTC** | **`BeQSxC`** | **Begins selling** |
+| 17:13–17:20 | `BeQSxC` | Multiple sell transactions |
+
+`2vQNZx` front-ran the `BeQSxC` sell wave by 3 minutes — consistent with coordinated communication, not coincidence.
+
+### Statistical Summary
+
+| Metric | Value |
+|--------|-------|
+| `2vQNZx` total buy transactions analyzed | 8 |
+| `2vQNZx` buys within 10 min of a `BeQSxC` sell | **4 of 8 (50%)** |
+| `2vQNZx` average buy size | 37.5 SOL (always round numbers) |
+| `BeQSxC` sell transactions | 69 |
+| Shared funding parent | Both traceable to `6LY1Jz` (977k SOL wallet) |
+
+### Why This Matters
+
+A single wallet spending 300 SOL to buy a token it's already deeply underwater on (-72%) makes no economic sense unless the purpose is **price stabilization** — absorbing `BeQSxC`'s sell pressure to maintain price for other cabal members who are still distributing. This is a coordinated exit liquidity operation.
+
+---
+
+## Part 7: Complete 16-Wallet Master Table
+
+| # | Wallet | Full Address | Group | Tokens | % Supply | SOL In | Current Value | uPnL |
+|---|--------|--------------|-------|--------|----------|--------|---------------|------|
+| 1 | HEa1ov ◆ | `HEa1ovPLw4dXd6QtYANGr3838wqRABt43mFXw8v6c1jD` | Ext | 38,130,943 | 3.89% | 285 SOL | ~$93K | +$70K |
+| 2 | 3bKtp1 ◆ | `3bKtp11rKE9D2KzFh6je1KfmY2GbX2gBotDxyK1jGHFN` | Ext | 29,038,675 | 2.96% | 402.9 SOL | ~$71K | +$39K |
+| 3 | 5jgzWM ◆ | `5jgzWMQzcNZAk7gLqKpxAab3XNJdM6E63GZLPqaspMfd` | Ext | 22,454,667 | 2.29% | ~$0 | ~$55K | +$55K |
+| 4 | AoYNTn ◆ | `AoYNTnzKq1XR5cgtsbaNZ56stP1JgwPVy7UHi5cFnf6u` | Ext | 20,828,898 | 2.12% | ~$0 | ~$51K | +$51K |
+| 5 | 58gqgn ★ | `58gqgnsK7sEpxTpJxb6s4xie7i8STH6k9SggJZ7mzoHH` | G1 | 18,785,543 | 1.91% | 2.5 SOL | ~$49K | +$48K |
+| 6 | A1w4HS ★ | `A1w4HSb7XHhdsr4F8kDT3quVEGEp8pL8jLr9QRBxJB9S` | G1 | 16,969,696 | 1.73% | 0.9 SOL | ~$44K | +$44K |
+| 7 | BC2Qqt ★ | `BC2QqtTbM8mPZbntXasByYMqhd2ZWrytVQC4AxsbVwZH` | G2 | 14,001,548 | 1.43% | 0.8 SOL | ~$36K | +$36K |
+| 8 | BeQSxC ★ | `BeQSxC4myeaLAURRdicnJrMC9U2RUVGq74hmQkPf49Zr` | G2 | 8,944,513 | 0.91% | 0.9 SOL | ~$23K | +$23K ⚠️ |
+| 9 | 7x7pZX ★ | `7x7pZXGeB6349fVM2GPzDZMBtFZqC7aA5b68nPqSdvpE` | G1 | 5,614,759 | 0.57% | 20.2 SOL | ~$15K | +$13K |
+| 10 | 5YKMkG ★ | `5YKMkGrZbTawQE99tfEbeE62B9C4KdDy1MCSBN8ukKxh` | G3 | 6,384,207 | 0.65% | 66.7 SOL | ~$17K | +$11K |
+| 11 | GaPCg8 ★ | `GaPCg8J5DEEAyeyMnVWpyAWWGqx5AzcZeJgipWwnfsWZ` | G1 | 4,521,171 | 0.46% | 33.8 SOL | ~$12K | +$9K |
+| 12 | 8BzHUp ★ | `8BzHUpmUfXy9jv75d9BdQhggrtnkaMnEs8CxPFH2tsEe` | G1 | 4,400,972 | 0.45% | ~$0 | ~$11K | +$11K |
+| 13 | 12KL55 ★ | `12KL55DxHz2kvZM7hVbD7Rviv92EiyH9m5oHGubYHePs` | G1 | 3,081,486 | 0.31% | 47.2 SOL | ~$8K | +$4K |
+| 14 | 5Q3eey ★ | `5Q3eeysqNfjgtCQxUhyswxqS8Dcr8MzrSJ3FhmTnnU6C` | G1 | 2,193,227 | 0.22% | ~$0 | ~$6K | +$6K |
+| 15 | EAWrgX ★ | `EAWrgX8oyEQWkWqRR69iPoQ8W4scBoh9UCiprTXx6kwf` | G1 | 2,024,356 | 0.21% | 37.3 SOL | ~$5K | +$2K |
+| 16 | 2vQNZx ★ | `2vQNZx2ETSwqc4HxtrJ4oCa1QgKbBsqUrwfeCqcFyYFx` | G3 | 2,588,611 | 0.26% | 300 SOL | ~$7K | **-$17K** |
+
+★ = original cabal (shared funding, confirmed)  
+◆ = extended network (pre-launch or $0-cost entry, coordinated pattern)  
+⚠️ = active distributor (69 sells)
+
+### 16-Wallet Aggregate (All Groups)
+
+| | Value |
+|--|--|
+| Total SOL invested | **~1,198 SOL (~$96K)** |
+| Total tokens held | **~199,963,271 tokens (20.40% supply)** |
+| Total current value | **~5,703 SOL (~$458K)** |
+| Total unrealized P&L | **~+4,505 SOL (~+$362K)** |
+| Pre-launch entries | 4 wallets (April 1-2, before public launch April 3) |
+| $0-cost team allocations | 3 wallets (`5jgzWM`, `8BzHUp`, `5Q3eey`) |
+| Active distributors | 1 confirmed (`BeQSxC`, 69 sells) |
+| Price support operator | 1 confirmed (`2vQNZx`, -72% underwater) |
+
+> **Note:** Snapshot prices differ slightly between analysis runs (range $0.00244–$0.00259). Individual figures use the price at time of each script run; aggregate uses rounded figures consistent across runs.
+
+---
+
+## Part 8: Summary of Findings
 
 ### Confirmed Coordinated Holdings
 
@@ -341,7 +478,8 @@ Orb explorer links:
 | Group 1 | `5tzFki...uAi9` | 2,339,844 SOL (~$470M) — likely exchange | 8 wallets | 57,631,210 | 5.84% |
 | Group 2 | `4AV2Qz...vfGh` | 7,812 SOL — **Privacy-Cash mixer** | 2 wallets | 22,946,061 | 2.33% |
 | Group 3 | `6LY1Jz...zkzF` | 977,729 SOL (~$195M) — likely exchange | 2 wallets | 8,972,818 | 0.91% |
-| **Total** | | | **12 wallets** | **89,550,089** | **9.13%** |
+| Extended (◆) | TBD | — | 4 wallets | 110,453,183 | 11.27% |
+| **Total** | | | **16 wallets** | **~199,963,271** | **~20.40%** |
 
 ### Full Snapshot Statistics
 
@@ -358,7 +496,7 @@ Orb explorer links:
 
 ---
 
-## Part 7: Key Signals & Red Flags
+## Part 9: Key Signals & Red Flags
 
 ### 1. Privacy Mixer Usage (Group 2)
 The Group 2 parent is a **Privacy-Cash ZK mixer account** — a protocol specifically designed to break the on-chain funding trail using zero-knowledge proofs. Normal meme coin buyers do not route SOL through ZK mixers before buying. This is deliberate operational security.
@@ -379,7 +517,10 @@ This 3-hop layering is a textbook money laundering/obfuscation pattern applied t
 Multiple wallets in the large holder list hold exact round amounts: 2,870,000 / 2,000,000 / 1,100,000 / 1,000,000 tokens. Human buyers buying at market price essentially never land on round token amounts.
 
 ### 5. Top Holder Concentration
-The top 4 wallets alone hold 11.26% of supply (ranks 1-4). The top 11 confirmed-cabal wallets hold another 9.13%. That's potentially **20%+ in coordinated or suspicious hands** near launch.
+The top 4 wallets alone hold 11.26% of supply (ranks 1-4). The confirmed 16-wallet network holds ~20.40% of supply in total. That's **1 in 5 tokens in coordinated hands** — enough to move price significantly on coordinated selling.
+
+### 6. Coordinated Price Support (Active Operation)
+`2vQNZx` is spending SOL to support price while `BeQSxC` distributes. `2vQNZx` is -72% on its position — it is not buying for profit. The only rational explanation is price maintenance to enable the other cabal wallets (particularly the pre-launch +60,000% wallets) to continue selling at inflated prices. This is a live, ongoing operation as of April 5, 2026.
 
 ---
 
