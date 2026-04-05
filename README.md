@@ -1,5 +1,5 @@
 # $BURNIE (Burnie Senders) — Coordinated Accumulation Analysis
-**Date:** April 5, 2026  
+**Date:** April 5, 2026 (P&L snapshot: 2026-04-05 22:40 UTC)  
 **Analyst:** On-chain investigation via Helius RPC + holder snapshot  
 **Verification:** All wallet addresses link to Orb explorer. All data sourced from live on-chain state.
 
@@ -32,6 +32,25 @@
 6. Grouped wallets by shared funding parent → 3 groups detected
 
 **Note on identity checks:** Helius `batchWalletIdentity` (wallet labeling API) is blocked from this VPS by Cloudflare at the `solanarpc.network` layer. Zero known-entity labels were returned. Parent wallet identification was done via `getAccountInfo` (which routes through standard RPC, unblocked) and web research.
+
+---
+
+## Part 0: Critical Findings — TL;DR
+
+> **Two cabal wallets bought $BURNIE on April 1 — two days before the public launch on April 3.**  
+> The Privacy-Cash group bought on April 2 — one day before launch.  
+> Combined the 12 confirmed wallets spent **~510 SOL (~$40K)** and currently hold positions worth **~2,904 SOL (~$232K)** — a **+469% return** on a 2-day-old token.  
+> One wallet (`BeQSxC`) has executed **68 sell transactions** — actively distributing into retail buyers.
+
+| Metric | Value |
+|--------|-------|
+| Price at snapshot | $0.002588 |
+| SOL price | ~$80 |
+| Market cap | $2.54M |
+| Total cabal SOL invested | 510.23 SOL (~$40,693) |
+| Total cabal value now | 2,904.60 SOL (~$231,652) |
+| Total cabal uPnL | **+2,394 SOL (+$190,959) / +469%** |
+| Earliest entry | **April 1, 2026 17:31 UTC** (2 days pre-launch) |
 
 ---
 
@@ -249,7 +268,71 @@ Orb explorer links:
 
 ---
 
-## Part 4: Summary of Findings
+## Part 4: Entry Times, Cost Basis & Unrealized P&L
+
+**Price at snapshot:** $0.002588 (3.245e-5 SOL/token) | SOL ~$80 | MCAP $2.54M
+
+> ⚠️ Note on ultra-low cost detections: Wallets `8BzHUp` and `5Q3eey` show 0.002 SOL detected cost — these likely received tokens via internal transfer (not a direct swap), so the true SOL cost was either paid indirectly or via a mechanism not captured by the on-chain swap parser. Their actual cost basis is near-zero regardless.
+
+### Group 1 — Parent: `5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9` (2.34M SOL exchange wallet)
+
+| Wallet | Entry Time (UTC) | SOL Invested | Avg Cost (SOL/token) | Holdings | Current Value | uPnL | Multiple |
+|--------|-----------------|-------------|----------------------|----------|---------------|------|----------|
+| `58gqgnsK...zoHH` | **Apr 1 17:32** ★PRE-LAUNCH | 2.506 SOL | 4.30e-8 | 18,785,543 (1.917%) | 609.59 SOL (~$48,617) | **+607 SOL (+$48,417) +24,226%** | 243x |
+| `A1w4HSb7...JB9S` | **Apr 1 17:31** ★PRE-LAUNCH | 0.905 SOL | 3.31e-8 | 16,969,696 (1.732%) | 550.67 SOL (~$43,918) | **+549 SOL (+$43,845) +60,753%** | 608x |
+| `7x7pZXGe...dvpE` | Apr 3 03:16 | 20.203 SOL | 3.53e-6 | 5,614,759 (0.573%) | 182.20 SOL (~$14,531) | +162 SOL (+$12,920) +802% | 9x |
+| `GaPCg8J5...fsWZ` | Apr 3 09:13 | 33.830 SOL | 8.87e-6 | 4,521,171 (0.461%) | 146.71 SOL (~$11,701) | +113 SOL (+$9,003) +334% | 4x |
+| `8BzHUpmu...tsEe` | Apr 3 03:46 | ~0.002 SOL* | ~2.56e-9* | 4,400,972 (0.449%) | 142.81 SOL (~$11,390) | +143 SOL (+$11,390) | ~68,641x |
+| `12KL55Dx...HePs` | Apr 3 03:16 | 47.178 SOL | 8.34e-6 | 3,081,486 (0.314%) | 99.99 SOL (~$7,975) | +53 SOL (+$4,212) +112% | 2x |
+| `5Q3eeysq...nU6C` | Apr 3 04:29 | ~0.002 SOL* | ~1.96e-9* | 2,193,227 (0.224%) | 71.17 SOL (~$5,676) | +71 SOL (+$5,676) | ~34,198x |
+| `EAWrgX8o...6kwf` | Apr 3 03:25 | 37.255 SOL | 1.20e-5 | 2,024,356 (0.207%) | 65.69 SOL (~$5,239) | +28 SOL (+$2,268) +76% | 1.8x |
+
+**Group 1 total: 141.88 SOL invested → +1,726.95 SOL uPnL (~+$137,730)**
+
+★ These two wallets entered **April 1** — 2 days before the token was publicly available on April 3.
+
+---
+
+### Group 2 — Parent: `4AV2Qzp3N4c9RfzyEbNZs2wqWfW4EwKnnxFAZCndvfGh` (Privacy-Cash ZK mixer)
+
+| Wallet | Entry Time (UTC) | SOL Invested | Avg Cost (SOL/token) | Holdings | Current Value | uPnL | Multiple |
+|--------|-----------------|-------------|----------------------|----------|---------------|------|----------|
+| `BC2QqtTb...VwZH` | **Apr 2 03:12** ★PRE-LAUNCH | 0.815 SOL | 5.82e-8 | 14,001,548 (1.429%) | 454.35 SOL (~$36,236) | **+454 SOL (+$36,171) +55,654%** | 558x |
+| `BeQSxC4m...49Zr` | **Apr 2 03:13** ★PRE-LAUNCH | 0.885 SOL | 6.46e-8 | 8,944,513 (0.913%) | 290.25 SOL (~$23,148) | **+289 SOL (+$23,078) +32,700%** | 328x ⚠️ 68 SELLS |
+
+**Group 2 total: 1.70 SOL invested (~$136) → +742.90 SOL uPnL (~+$59,249)**  
+**BeQSxC has executed 68 sell transactions — actively distributing into retail.**
+
+★ Both wallets entered **April 2** — 1 day before public launch. Funded through Privacy-Cash to obscure origin.
+
+---
+
+### Group 3 — Parent: `6LY1JzAFV...zkzF` (977k SOL exchange wallet)
+
+| Wallet | Entry Time (UTC) | SOL Invested | Avg Cost (SOL/token) | Holdings | Current Value | uPnL | Multiple |
+|--------|-----------------|-------------|----------------------|----------|---------------|------|----------|
+| `5YKMkGrZ...kKxh` | Apr 3 03:25 | 66.65 SOL | 9.38e-6 | 6,384,207 (0.651%) | 207.17 SOL (~$16,522) | +141 SOL (+$11,207) +211% | 3x |
+| `2vQNZx2E...yYFx` | Apr 3 23:14 | 300.002 SOL | 4.29e-5 | 2,588,611 (0.264%) | 84.00 SOL (~$6,699) | **-216 SOL (-$17,227) -72%** | 0.28x |
+
+**Group 3 total: 366.65 SOL invested → -75.48 SOL uPnL (~-$6,020)**  
+`2vQNZx` entered very late at a high price (Apr 3 23:14, avg cost 15-18x higher than pre-launch wallets) and is deeply underwater.
+
+---
+
+### Aggregate — All 12 Cabal Wallets
+
+| | Value |
+|--|--|
+| Total SOL invested | **510.23 SOL (~$40,693)** |
+| Total tokens held | **89,510,088 tokens (9.13% supply)** |
+| Total current value | **2,904.60 SOL (~$231,652)** |
+| Total unrealized P&L | **+2,394.37 SOL (+$190,959) / +469%** |
+| Wallets in profit | 11 of 12 |
+| Wallets actively selling | 1 confirmed (`BeQSxC`, 68 sells) |
+
+---
+
+## Part 6: Summary of Findings
 
 ### Confirmed Coordinated Holdings
 
@@ -275,7 +358,7 @@ Orb explorer links:
 
 ---
 
-## Part 5: Key Signals & Red Flags
+## Part 7: Key Signals & Red Flags
 
 ### 1. Privacy Mixer Usage (Group 2)
 The Group 2 parent is a **Privacy-Cash ZK mixer account** — a protocol specifically designed to break the on-chain funding trail using zero-knowledge proofs. Normal meme coin buyers do not route SOL through ZK mixers before buying. This is deliberate operational security.

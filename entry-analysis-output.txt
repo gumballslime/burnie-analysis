@@ -1,0 +1,243 @@
+
+🔍 $BURNIE — Cabal Entry & P&L Analysis
+
+Fetching current price from DexScreener... 2.588e-3 USD | SOL ≈ $80 | MCAP $2.54M
+
+[1/12] G1 58gqgn...zoHH → holdings... sigs... (26) → trades... | entry: 2026-04-01 17:32Z | hold: 18,785,543 | uPnL: +607.08 SOL (+24226%)
+
+[2/12] G1 A1w4HS...JB9S → holdings... sigs... (20) → trades... | entry: 2026-04-01 17:31Z | hold: 16,969,696 | uPnL: +549.76 SOL (+60753%)
+
+[3/12] G1 7x7pZX...dvpE → holdings... sigs... (60) → trades... | entry: 2026-04-03 03:16Z | hold: 5,614,759 | uPnL: +162.00 SOL (+802%)
+
+[4/12] G1 GaPCg8...fsWZ → holdings... sigs... (1842) → trades... | entry: 2026-04-03 09:13Z | hold: 4,521,171 | uPnL: +112.88 SOL (+334%)
+
+[5/12] G1 8BzHUp...tsEe → holdings... sigs... (362) → trades... | entry: 2026-04-03 03:46Z | hold: 4,400,972 | uPnL: +142.81 SOL (+6863974%)
+
+[6/12] G1 12KL55...HePs → holdings... sigs... (88) → trades... | entry: 2026-04-03 03:16Z | hold: 3,081,486 | uPnL: +52.82 SOL (+112%)
+
+[7/12] G1 5Q3eey...nU6C → holdings... sigs... (1861) → trades... | entry: 2026-04-03 04:29Z | hold: 2,193,227 | uPnL: +71.17 SOL (+3419676%)
+
+[8/12] G1 EAWrgX...6kwf → holdings... sigs... (2984) → trades... | entry: 2026-04-03 03:25Z | hold: 2,024,356 | uPnL: +28.44 SOL (+76%)
+
+[9/12] G2 BC2Qqt...VwZH → holdings... sigs... (7) → trades... | entry: 2026-04-02 03:12Z | hold: 14,001,548 | uPnL: +453.54 SOL (+55654%)
+
+[10/12] G2 BeQSxC...49Zr → holdings... sigs... (99) → trades... | entry: 2026-04-02 03:13Z | hold: 8,944,513 | uPnL: +289.36 SOL (+32700%)
+
+[11/12] G3 5YKMkG...kKxh → holdings... sigs... (91) → trades... | entry: 2026-04-03 03:25Z | hold: 6,384,207 | uPnL: +140.52 SOL (+211%)
+
+[12/12] G3 2vQNZx...yYFx → holdings... sigs... (491) → trades... | entry: 2026-04-03 23:14Z | hold: 2,588,611 | uPnL: -216.00 SOL (-72%)
+
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+  $BURNIE (Burnie Senders) — CABAL ENTRY & P&L REPORT
+  Snapshot: 2026-04-05 22:40:45 UTC
+  Price: 2.588e-3 USD  |  3.245e-5 SOL  |  SOL ≈ $80  |  MCAP $2.54M
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
+GROUP 1  ──  Parent: 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9  [2,339,844 SOL — likely exchange]
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  58gqgn...zoHH
+  58gqgnsK7sEpxTpJxb6s4xie7i8STH6k9SggJZ7mzoHH
+  https://orbmarkets.io/address/58gqgnsK7sEpxTpJxb6s4xie7i8STH6k9SggJZ7mzoHH
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-01 17:32:23 UTC
+  Buys / Sells 2 buys  /  0 sells
+  SOL Invested 2.506 SOL         (~$200)
+  Tokens Bought 58,209,906 tokens   (5.940% supply)
+  Avg Cost     4.3050e-8 SOL/token  (~3.4334e-6 USD/token)
+  ──
+  Holding Now  18,785,543 tokens   (1.917% supply)
+  Value Now    609.5909 SOL       (~$48,617)
+  Multiple     243.26x
+  uPnL         ▲ PROFIT   +607.085 SOL  (~+$48,417)  +24226.0%
+
+  A1w4HS...JB9S
+  A1w4HSb7XHhdsr4F8kDT3quVEGEp8pL8jLr9QRBxJB9S
+  https://orbmarkets.io/address/A1w4HSb7XHhdsr4F8kDT3quVEGEp8pL8jLr9QRBxJB9S
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-01 17:31:49 UTC
+  Buys / Sells 1 buys  /  0 sells
+  SOL Invested 0.905 SOL         (~$72)
+  Tokens Bought 27,333,476 tokens   (2.789% supply)
+  Avg Cost     3.3107e-8 SOL/token  (~2.6404e-6 USD/token)
+  ──
+  Holding Now  16,969,696 tokens   (1.732% supply)
+  Value Now    550.6666 SOL       (~$43,918)
+  Multiple     608.53x
+  uPnL         ▲ PROFIT   +549.762 SOL  (~+$43,845)  +60752.6%
+
+  7x7pZX...dvpE
+  7x7pZXGeB6349fVM2GPzDZMBtFZqC7aA5b68nPqSdvpE
+  https://orbmarkets.io/address/7x7pZXGeB6349fVM2GPzDZMBtFZqC7aA5b68nPqSdvpE
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 03:16:50 UTC
+  Buys / Sells 1 buys  /  1 sells
+  SOL Invested 20.203 SOL         (~$1,611)
+  Tokens Bought 5,729,346 tokens   (0.585% supply)
+  Avg Cost     3.5262e-6 SOL/token  (~2.8123e-4 USD/token)
+  ──
+  Holding Now  5,614,759 tokens   (0.573% supply)
+  Value Now    182.1989 SOL       (~$14,531)
+  Multiple     9.02x
+  uPnL         ▲ PROFIT   +161.996 SOL  (~+$12,920)  +801.8%
+
+  GaPCg8...fsWZ
+  GaPCg8J5DEEAyeyMnVWpyAWWGqx5AzcZeJgipWwnfsWZ
+  https://orbmarkets.io/address/GaPCg8J5DEEAyeyMnVWpyAWWGqx5AzcZeJgipWwnfsWZ
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 09:13:17 UTC
+  Buys / Sells 8 buys  /  1 sells
+  SOL Invested 33.83 SOL         (~$2,698)
+  Tokens Bought 3,813,941 tokens   (0.389% supply)
+  Avg Cost     8.8702e-6 SOL/token  (~7.0743e-4 USD/token)
+  ──
+  Holding Now  4,521,171 tokens   (0.461% supply)
+  Value Now    146.712 SOL       (~$11,701)
+  Multiple     4.34x
+  uPnL         ▲ PROFIT   +112.882 SOL  (~+$9,003)  +333.7%
+
+  8BzHUp...tsEe
+  8BzHUpmUfXy9jv75d9BdQhggrtnkaMnEs8CxPFH2tsEe
+  https://orbmarkets.io/address/8BzHUpmUfXy9jv75d9BdQhggrtnkaMnEs8CxPFH2tsEe
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 03:46:57 UTC
+  Buys / Sells 1 buys  /  0 sells
+  SOL Invested 0.002 SOL         (~$0)
+  Tokens Bought 811,439 tokens   (0.083% supply)
+  Avg Cost     2.5640e-9 SOL/token  (~2.0449e-7 USD/token)
+  ──
+  Holding Now  4,400,972 tokens   (0.449% supply)
+  Value Now    142.8115 SOL       (~$11,390)
+  Multiple     68640.74x
+  uPnL         ▲ PROFIT   +142.809 SOL  (~+$11,390)  +6863974.4%
+
+  12KL55...HePs
+  12KL55DxHz2kvZM7hVbD7Rviv92EiyH9m5oHGubYHePs
+  https://orbmarkets.io/address/12KL55DxHz2kvZM7hVbD7Rviv92EiyH9m5oHGubYHePs
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 03:16:35 UTC
+  Buys / Sells 5 buys  /  8 sells
+  SOL Invested 47.178 SOL         (~$3,763)
+  Tokens Bought 5,655,742 tokens   (0.577% supply)
+  Avg Cost     8.3417e-6 SOL/token  (~6.6528e-4 USD/token)
+  ──
+  Holding Now  3,081,486 tokens   (0.314% supply)
+  Value Now    99.9942 SOL       (~$7,975)
+  Multiple     2.12x
+  uPnL         ▲ PROFIT   +52.816 SOL  (~+$4,212)  +111.9%
+
+  5Q3eey...nU6C
+  5Q3eeysqNfjgtCQxUhyswxqS8Dcr8MzrSJ3FhmTnnU6C
+  https://orbmarkets.io/address/5Q3eeysqNfjgtCQxUhyswxqS8Dcr8MzrSJ3FhmTnnU6C
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 04:29:09 UTC
+  Buys / Sells 1 buys  /  0 sells
+  SOL Invested 0.002 SOL         (~$0)
+  Tokens Bought 1,059,222 tokens   (0.108% supply)
+  Avg Cost     1.9648e-9 SOL/token  (~1.5670e-7 USD/token)
+  ──
+  Holding Now  2,193,227 tokens   (0.224% supply)
+  Value Now    71.1702 SOL       (~$5,676)
+  Multiple     34197.76x
+  uPnL         ▲ PROFIT   +71.168 SOL  (~+$5,676)  +3419676.2%
+
+  EAWrgX...6kwf
+  EAWrgX8oyEQWkWqRR69iPoQ8W4scBoh9UCiprTXx6kwf
+  https://orbmarkets.io/address/EAWrgX8oyEQWkWqRR69iPoQ8W4scBoh9UCiprTXx6kwf
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 03:25:38 UTC
+  Buys / Sells 5 buys  /  4 sells
+  SOL Invested 37.255 SOL         (~$2,971)
+  Tokens Bought 3,099,906 tokens   (0.316% supply)
+  Avg Cost     1.2018e-5 SOL/token  (~9.5849e-4 USD/token)
+  ──
+  Holding Now  2,024,356 tokens   (0.207% supply)
+  Value Now    65.6904 SOL       (~$5,239)
+  Multiple     1.76x
+  uPnL         ▲ PROFIT   +28.435 SOL  (~+$2,268)  +76.3%
+
+  ────────────────────────────────────────────────────────────
+  GROUP 1 TOTAL  141.88 SOL in  |  57,591,210 tokens held  |  +1,726.95 SOL uPnL  (~+$137,730)
+
+GROUP 2  ──  Parent: 4AV2Qzp3N4c9RfzyEbNZs2wqWfW4EwKnnxFAZCndvfGh  [Privacy-Cash ZK mixer]
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  BC2Qqt...VwZH
+  BC2QqtTbM8mPZbntXasByYMqhd2ZWrytVQC4AxsbVwZH
+  https://orbmarkets.io/address/BC2QqtTbM8mPZbntXasByYMqhd2ZWrytVQC4AxsbVwZH
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-02 03:12:29 UTC
+  Buys / Sells 1 buys  /  0 sells
+  SOL Invested 0.815 SOL         (~$65)
+  Tokens Bought 14,001,548 tokens   (1.429% supply)
+  Avg Cost     5.8202e-8 SOL/token  (~4.6418e-6 USD/token)
+  ──
+  Holding Now  14,001,548 tokens   (1.429% supply)
+  Value Now    454.3502 SOL       (~$36,236)
+  Multiple     557.54x
+  uPnL         ▲ PROFIT   +453.535 SOL  (~+$36,171)  +55654.1%
+
+  BeQSxC...49Zr
+  BeQSxC4myeaLAURRdicnJrMC9U2RUVGq74hmQkPf49Zr
+  https://orbmarkets.io/address/BeQSxC4myeaLAURRdicnJrMC9U2RUVGq74hmQkPf49Zr
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-02 03:13:36 UTC
+  Buys / Sells 1 buys  /  68 sells
+  SOL Invested 0.885 SOL         (~$71)
+  Tokens Bought 13,691,586 tokens   (1.397% supply)
+  Avg Cost     6.4632e-8 SOL/token  (~5.1546e-6 USD/token)
+  ──
+  Holding Now  8,944,513 tokens   (0.913% supply)
+  Value Now    290.2494 SOL       (~$23,148)
+  Multiple     328.00x
+  uPnL         ▲ PROFIT   +289.365 SOL  (~+$23,078)  +32699.6%
+
+  ────────────────────────────────────────────────────────────
+  GROUP 2 TOTAL  1.70 SOL in  |  22,946,061 tokens held  |  +742.90 SOL uPnL  (~+$59,249)
+
+GROUP 3  ──  Parent: 6LY1JzAFVZsP2a2xKrtU6znQMQ5h4i7tocWdgrkZzkzF  [977,729 SOL — likely exchange]
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5YKMkG...kKxh
+  5YKMkGrZbTawQE99tfEbeE62B9C4KdDy1MCSBN8ukKxh
+  https://orbmarkets.io/address/5YKMkGrZbTawQE99tfEbeE62B9C4KdDy1MCSBN8ukKxh
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 03:25:43 UTC
+  Buys / Sells 2 buys  /  4 sells
+  SOL Invested 66.65 SOL         (~$5,316)
+  Tokens Bought 7,105,867 tokens   (0.725% supply)
+  Avg Cost     9.3796e-6 SOL/token  (~7.4806e-4 USD/token)
+  ──
+  Holding Now  6,384,207 tokens   (0.651% supply)
+  Value Now    207.1675 SOL       (~$16,522)
+  Multiple     3.11x
+  uPnL         ▲ PROFIT   +140.517 SOL  (~+$11,207)  +210.8%
+
+  2vQNZx...yYFx
+  2vQNZx2ETSwqc4HxtrJ4oCa1QgKbBsqUrwfeCqcFyYFx
+  https://orbmarkets.io/address/2vQNZx2ETSwqc4HxtrJ4oCa1QgKbBsqUrwfeCqcFyYFx
+  ────────────────────────────────────────────────────────────────────────────────────────────────
+  Entry Time   2026-04-03 23:14:47 UTC
+  Buys / Sells 8 buys  /  4 sells
+  SOL Invested 300.002 SOL         (~$23,926)
+  Tokens Bought 6,995,401 tokens   (0.714% supply)
+  Avg Cost     4.2886e-5 SOL/token  (~3.4203e-3 USD/token)
+  ──
+  Holding Now  2,588,611 tokens   (0.264% supply)
+  Value Now    84.0004 SOL       (~$6,699)
+  Multiple     0.28x
+  uPnL         ▼ LOSS     -216.002 SOL  (~-$17,227)  --72.0%
+
+  ────────────────────────────────────────────────────────────
+  GROUP 3 TOTAL  366.65 SOL in  |  8,972,818 tokens held  |  -75.48 SOL uPnL  (~-$6,020)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+  ALL 12 CABAL WALLETS — AGGREGATE
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Total SOL invested   510.23 SOL          (~$40,693)
+  Total tokens held    89,510,088 tokens  (9.134% supply)
+  Total current value  2,904.60 SOL          (~$231,652)
+  Total uPnL           +2,394.37 SOL         (~+$190,959)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
